@@ -1,11 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="colorControlActivated">@color/indigo</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="textAppearanceButton">@style/AppTheme.PrimaryButton</item>
+
+        <item name="textAppearanceBody1">@style/AppTheme.BodyText</item>
+        <item name="textAppearanceSubtitle1">@style/AppTheme.PreviewText</item>
+
+        <item name="title">@style/AppTheme.Title</item>
+        <item name="subtitle">@style/AppTheme.Subtitle</item>
+        <item name="textAppearanceHeadline1">@style/AppTheme.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/AppTheme.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/AppTheme.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/AppTheme.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/AppTheme.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/AppTheme.Headline6</item>
+
+        <item name="android:tabWidgetStyle">@style/AppTheme.TabLayout</item>
+        <item name="android:textAppearance">@style/AppTheme.BodyText</item>
+        <item name="android:titleTextStyle">@style/AppTheme.Headline1</item>
+        <item name="android:editTextStyle">@style/AppTheme.EditText</item>
+
+        <item name="android:checkboxStyle">@style/AppTheme.Checkbox</item>
+
+        <item name="android:buttonStyle">@style/AppTheme.Button</item>
+
+        <item name="android:radioButtonStyle">@style/AppTheme.RadioButton</item>
+
+        <item name="android:scrollbars">none</item>
+
+    </style>
+
+    <style name="AppTheme.TextView" parent="TextAppearance.MaterialComponents.Chip"/>
+
+    <style name="AppTheme.FullScreen" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- WIDGETS -->
+
+    <style name="AppTheme.BackButton">
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="AppTheme.EditText" parent="Widget.AppCompat.EditText"/>
+
+    <style name="AppTheme.TabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">@dimen/text_size_default</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="AppTheme.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabIndicatorColor">@color/indigo</item>
+        <item name="tabTextColor">@color/grayLight</item>
+        <item name="tabSelectedTextColor">@color/indigo</item>
+        <item name="tabTextAppearance">@style/AppTheme.TabLayoutTextAppearance</item>
+        <item name="tabPaddingStart">0dp</item>
+        <item name="tabPaddingEnd">0dp</item>
+        <item name="tabGravity">center</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabRippleColor">@null</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTheme.Button" parent="Widget.MaterialComponents.Button"/>
+    <style name="AppTheme.Checkbox" parent="Widget.AppCompat.CompoundButton.CheckBox"/>
+    <style name="AppTheme.RadioButton" parent="Widget.AppCompat.CompoundButton.RadioButton"/>
+
+    <style name="AppTheme.NavigationHeader" parent="AppTheme">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:elevation">2dp</item>
+        <item name="android:transitionName">header</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:clipChildren">false</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- TextViews -->
+
+    <style name="AppTheme.ContentHeader" parent="AppTheme">
+        <item name="android:textSize">@dimen/text_size_default</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AppTheme.BodyText" parent="AppTheme">
+        <item name="android:textSize">@dimen/text_size_default</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AppTheme.EmptyStateText" parent="AppTheme">
+        <item name="android:textSize">@dimen/text_size_default</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="AppTheme.PreviewText" parent="AppTheme">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="AppTheme.ErrorText" parent="AppTheme">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/redPale</item>
+    </style>
+
+    <style name="AppTheme.OnboardingErrorValue" parent="AppTheme">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="AppTheme.OnboardingErrorMessage" parent="AppTheme">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="AppTheme.OnboardingChipCheckable" parent="AppTheme">
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingTop">10sp</item>
+        <item name="android:paddingStart">16sp</item>
+        <item name="android:paddingEnd">16sp</item>
+        <item name="android:paddingBottom">10sp</item>
+        <item name="android:button">@color/transparent</item>
+    </style>
+
+    <style name="AppTheme.NavigationButton" parent="AppTheme">
+        <item name="android:textSize">@dimen/text_size_default</item>
+        <item name="android:textColor">@color/indigo</item>
+    </style>
+
+    <style name="AppTheme.Headline" parent="AppTheme">
+        <item name="android:textSize">@dimen/text_size_xxxxlarge</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AppTheme.CollapsingHeaderTitle" parent="AppTheme.Headline">
+        <item name="android:textSize">@dimen/text_size_collapsing_header</item>
+    </style>
+
+    <style name="AppTheme.SettingsHeadline" parent="AppTheme.ContentHeader">
+        <item name="android:layout_height">75dp</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="AppTheme.Headline1" parent="AppTheme.Headline"/>
+
+    <style name="AppTheme.Headline2" parent="AppTheme.Headline">
+        <item name="android:textSize">@dimen/text_size_xxlarge</item>
+    </style>
+
+    <style name="AppTheme.Headline3" parent="AppTheme.Headline">
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+    </style>
+
+    <style name="AppTheme.Headline4" parent="AppTheme.Headline">
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+
+    <style name="AppTheme.Headline5" parent="AppTheme.Headline">
+        <item name="android:textSize">@dimen/text_size_default</item>
+    </style>
+
+    <style name="AppTheme.Headline6" parent="AppTheme.Headline">
+        <item name="android:textSize">@dimen/text_size_small</item>
+    </style>
+
+    <style name="AppTheme.PageTitle" parent="AppTheme.Headline2"/>
+
+    <style name="AppTheme.Title" parent="AppTheme">
+        <item name="android:textSize">@dimen/text_size_default</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AppTheme.Subtitle" parent="AppTheme">
+        <item name="android:textSize">@dimen/text_size_default</item>
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="AppTheme.PrimaryText" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">@dimen/text_size_xxxxxxlarge</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="AppTheme.OnboardingTitle">
+        <item name="android:textSize">@dimen/text_size_xxxxxxlarge</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:lineSpacingExtra">@dimen/linespacing_extra_xxxxxlarge</item>
+    </style>
+
+    <style name="AppTheme.OnboardingEditText">
+        <item name="android:textSize">@dimen/text_size_xxxxlarge</item>
+        <item name="android:textColor">@color/indigo</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="AppTheme.SecondaryText" parent="AppTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/secondary_button_text</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="AppTheme.Question" parent="AppTheme">
+        <item name="android:textSize">@dimen/text_size_default</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="AppTheme.Answer" parent="AppTheme">
+        <item name="android:textSize">31sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- Buttons -->
+
+    <style name="AppTheme.TertiaryText" parent="AppTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/tertiary_button_text</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/indigo</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="AppTheme.PrimaryButton" parent="AppTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/primary_button_text</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/indigo</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="AppTheme.SecondaryButton" parent="AppTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/secondary_button_text</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/indigo</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="AppTheme.TertiaryButton" parent="AppTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/tertiary_button_text</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/indigo</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="AppTheme.SelectableButton" parent="AppTheme">
+        <item name="android:textSize">@dimen/text_size_default</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
     </style>
 
 </resources>

@@ -3,4 +3,51 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="white">#fff</color>
+    <color name="grayLight">#eee</color>
+    <color name="gray">#aaa</color>
+    <color name="grayDark">#666</color>
+    <color name="black">#000</color>
+
+    <color name="peach">#fdd</color>
+    <color name="green">#21D509</color>
+    <color name="blue">#0C59DF</color>
+    <color name="red">#D63B3B</color>
+    <color name="orange">#E9762C</color>
+    <color name="yellow">#F8CA13</color>
+    <color name="teal">#4FF3D0</color>
+    <color name="indigo">#7D39E9</color>
+
+    <color name="greenPale">#B3FFA7</color>
+    <color name="bluePale">#B7CDFA</color>
+    <color name="redPale">#F7BCBC</color>
+
+    <color name="transparentBlack">#8000</color>
+    <color name="transparentWhite">#8fff</color>
+
+    <color name="gray_14">#eee</color>
+    <color name="gray_13">#ddd</color>
+    <color name="gray_12">#ccc</color>
+    <color name="gray_11">#bbb</color>
+    <color name="gray_10">#aaa</color>
+    <color name="gray_9">#999</color>
+    <color name="gray_8">#888</color>
+    <color name="gray_7">#777</color>
+    <color name="gray_6">#666</color>
+    <color name="gray_5">#555</color>
+    <color name="gray_4">#444</color>
+    <color name="gray_3">#333</color>
+    <color name="gray_2">#222</color>
+    <color name="gray_1">#111</color>
+
+    <color name="dark_red">#a00</color>
+
+    <color name="pale_red">#faa</color>
+    <color name="pale_orange">#fba</color>
+    <color name="pale_yellow">#ff0</color>
+    <color name="pale_green">#afa</color>
+    <color name="pale_blue">#88f</color>
 </resources>

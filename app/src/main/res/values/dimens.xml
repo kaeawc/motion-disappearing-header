@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="primary_button_text">@dimen/text_size_default</dimen>
+    <dimen name="secondary_button_text">@dimen/text_size_default</dimen>
+    <dimen name="tertiary_button_text">@dimen/text_size_default</dimen>
+    <dimen name="checkable_button_text">@dimen/text_size_default</dimen>
+    <dimen name="selectable_button_text">@dimen/text_size_default</dimen>
+    <dimen name="send_like_button_text">@dimen/text_size_default</dimen>
+    <dimen name="radio_button_text">@dimen/text_size_default</dimen>
+    <dimen name="onboarding_progress_dot_small">5dp</dimen>
+    <dimen name="onboarding_progress_dot_large">38dp</dimen>
+    <dimen name="onboarding_progress_icon_small">1dp</dimen>
+    <dimen name="onboarding_progress_icon_large">20dp</dimen>
+    <dimen name="onboarding_progress_spacing">16dp</dimen>
+    <dimen name="onboarding_vertical_bias">0.1</dimen>
+    <dimen name="onboarding_above_bar_height">72dp</dimen>
+    <dimen name="onboarding_below_bar_height">24dp</dimen>
+    <dimen name="onboarding_choice_text_size">16sp</dimen>
+    <dimen name="onboarding_title_top_margin">32dp</dimen>
+    <dimen name="onboarding_title_middle_margin">16dp</dimen>
+    <dimen name="onboarding_title_choice_height">48dp</dimen>
+    <dimen name="onboarding_title_big_choice_height">52dp</dimen>
+
+    <dimen name="text_size_xsmall">11sp</dimen>
+    <dimen name="text_size_small">13sp</dimen>
+    <dimen name="text_size_default">15sp</dimen>
+    <dimen name="text_size_large">17sp</dimen>
+    <dimen name="text_size_xlarge">20sp</dimen>
+    <dimen name="text_size_xxlarge">22sp</dimen>
+    <dimen name="text_size_xxxlarge">24sp</dimen>
+    <dimen name="text_size_xxxxlarge">30sp</dimen>
+    <dimen name="text_size_xxxxxlarge">32sp</dimen>
+    <dimen name="text_size_xxxxxxlarge">36sp</dimen>
+
+
+    <dimen name="text_size_collapsing_header">30sp</dimen>
+
+    <dimen name="profile_photo_corner_radius">10dp</dimen>
+
+    <dimen name="secondary_button_corner_radius">26dp</dimen>
+    <dimen name="tertiary_button_corner_radius">20dp</dimen>
+    <dimen name="checkable_button_corner_radius">26dp</dimen>
+    <dimen name="selectable_button_corner_radius">20dp</dimen>
+
+    <dimen name="text_size_chat">17sp</dimen>
+    <dimen name="text_size_chat_emojis">24sp</dimen>
+
+    <dimen name="linespacing_extra_xsmall">0sp</dimen>
+    <dimen name="linespacing_extra_small">2sp</dimen>
+    <dimen name="linespacing_extra_default">2sp</dimen>
+    <dimen name="linespacing_extra_large">4sp</dimen>
+    <dimen name="linespacing_extra_xlarge">4sp</dimen>
+    <dimen name="linespacing_extra_xxlarge">6sp</dimen>
+    <dimen name="linespacing_extra_xxxlarge">6sp</dimen>
+    <dimen name="linespacing_extra_xxxxlarge">8sp</dimen>
+    <dimen name="linespacing_extra_xxxxxlarge">8sp</dimen>
+
+    <dimen name="margin_xxxxlarge">64dp</dimen>
+    <dimen name="margin_xxxlarge">32dp</dimen>
+    <dimen name="margin_xxlarge">24dp</dimen>
+    <dimen name="margin_xlarge">16dp</dimen>
+    <dimen name="margin_large">8dp</dimen>
+    <dimen name="margin_normal">4dp</dimen>
+    <dimen name="margin_small">2dp</dimen>
+
+    <dimen name="_32">32dp</dimen>
+
+    <dimen name="settings_margin_top">48dp</dimen>
+
+    <dimen name="prompt_vertical_margin">88dp</dimen>
+
+    <dimen name="bottom_navigation_item_margin">12dp</dimen>
+    <dimen name="bottom_navigation_badge_offset">40dp</dimen>
+
+    <dimen name="liked_friends_bottom_margin">240dp</dimen>
+    <dimen name="liked_friends_oversized_bottom_margin">224dp</dimen>
+    <dimen name="liked_content_bottom_margin">192dp</dimen>
+    <dimen name="matching_content_bottom_margin">64dp</dimen>
+    <dimen name="matching_takeover_top_margin">128dp</dimen>
+
+    <dimen name="prompt_min_text_size">@dimen/text_size_xxxxxlarge</dimen>
+    <dimen name="prompt_max_text_size">@dimen/text_size_xxxxxxlarge</dimen>
+
+    <dimen name="main_nav_size">24dp</dimen>
+
+    <dimen name="overflow_button_size">48dp</dimen>
+    <dimen name="tool_bar_height">60dp</dimen>
+    <dimen name="expanded_tool_bar_height">128dp</dimen>
+    <dimen name="thumbnail_row_height">58dp</dimen>
+
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="spacing_large">32dp</dimen>
+    <dimen name="spacing_xlarge">48dp</dimen>
+    <dimen name="spacing_huge">64dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+
+    <dimen name="preference_button_height">40dp</dimen>
+    <dimen name="preference_button_width">150dp</dimen>
+
+    <dimen name="navigation_badge_text_size">8sp</dimen>
+    <dimen name="navigation_badge_size">16dp</dimen>
+
+    <dimen name="bottom_navigation_height">48dp</dimen>
+    <dimen name="bottom_navigation_item_width">80dp</dimen>
+
+    <dimen name="prompt_text_min">12sp</dimen>
+    <dimen name="prompt_text_small">14sp</dimen>
+    <dimen name="prompt_text_large">20sp</dimen>
+    <dimen name="prompt_text_max">40sp</dimen>
+
+    <dimen name="liked_prompt_text_min">12sp</dimen>
+    <dimen name="liked_prompt_text_small">14sp</dimen>
+    <dimen name="liked_prompt_text_large">16sp</dimen>
+    <dimen name="liked_prompt_text_max">22sp</dimen>
+
+    <dimen name="navigation_padding_top_selected">6dp</dimen>
+    <dimen name="navigation_padding_top_deselected">8dp</dimen>
+    <dimen name="navigation_paddding_bottom">10dp</dimen>
+
+    <dimen name="heads_up_notification_thumb_size">40dp</dimen>
+
+    <dimen name="notification_large_icon_size">128dp</dimen>
+
+    <dimen name="dialog_max_height">640dp</dimen>
+    <dimen name="dialog_max_width">424dp</dimen>
+
+    <dimen name="smallest_padding">4dp</dimen>
+
+    <dimen name="header_view_start_text_size">32sp</dimen>
+    <dimen name="header_view_end_text_size">18sp</dimen>
+
+    <dimen name="connections_smooth_scroll">160dp</dimen>
+
+    <dimen name="connections_bottom_margin">20dp</dimen>
+
+    <dimen name="connections_cell_background_height">96dp</dimen>
+    <dimen name="connections_cell_text_margin_top">54dp</dimen>
+
+    <dimen name="border_height">1px</dimen>
+    <dimen name="setting_cell_height">60dp</dimen>
+
+    <dimen name="tab_layout_width">50dp</dimen>
+    <dimen name="tab_layout_margin">28dp</dimen>
+
+    <dimen name="secondary_button_height">52dp</dimen>
+
+    <dimen name="decision_button_size">64dp</dimen>
+
+    <dimen name="likes_you_grid_item_padding_side">6dp</dimen>
+    <dimen name="likes_you_grid_item_padding_bottom">12dp</dimen>
+
+    <dimen name="profile_horizontal_margin">12dp</dimen>
+    <dimen name="liked_content_horizontal_margin">32dp</dimen>
+
+</resources>
